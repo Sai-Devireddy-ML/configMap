@@ -1,0 +1,17 @@
+key: TqXw77dkQ96KGMdh8BWiog4kMqXMrVmk3K6A1Dqux9fDT8pZyAqEaHZBULRAWAHyTKzOUi/r5cJkMpN04RXdaUMVUo0FrewPZXtwpt6N69w0U6crDgHfIz2CfdU13XJ1c9M5T7EyozD6xwPIvpSiq0JbW7HohGtz1/osSP3xZB8R6IFdVB9N79IsmTe196i6HDhYEgr622YH7xu4ItcPh+2C2hYzy4LPlVK/UYbIoj6J7uOY0Tc9STHhhOtG61nFbWgCRmlfReLHjY9ndUGy2BF1Ue1jMfXBOeFHV8xzBXl7iTypweyX7cQQ6LQor7UuC8w+w0NfB/8ZSGS+KyJ5Dj/Ebcr1VuDvIKj+oXzV0yddg29Na3eyhMNHEwC9Uoo+x45QJJpLl0v1m/H7HfGOTK5uOKn6+M/QNGQyTRzsxR0JbdFkFNgKjlufONhU/tLt4wNHJKztuvz6+PEqq52SKEJrdNrySBcIaJ1wmP2OMMO1oOTc29Oee4CebgwpNySlV0CK3Pf0DFYddPLc7jK3QT8eavM+WicfYvm4hyb75gfylk58iz0OTsqulibH/WFQAFARqfz7MF3RR+aJgS6vPwwxCgRd7jc14f1dX0XduPLfCN79q9kLJ9MxBxhj0YtHypulmkHxrIuph6Fdv1eHgyuW2d1judCC4TB18ctrht46q704jAMT98f5a3nqknoBWxbN8h0HYF64QUuvPuoLAdKxXp0w92M+1Qe0PIAXMK7CQ1w+1BoMfchDbQF4tZB2Dl2WAqamasRFbIw37YoImykNUwWez0neKnm7jiF8JjNlC1m6GymuiynMJNaLQGQhiCoPTMe8+RdwePMmf8jObJZaQrw9UeCb/IdPx8lHd91V9fBoTqbU0xRE/tU61gBplUij74FTHsmc3SS624xVpFnsI8JWr6797VvjHYXMhoQBqMUIVvADKZ+iMiJUr0X4OnUtEAia6HOxowMPodIGzw==
+tags:
+  Name: test
+  appName: ecs
+  projectName: ecs
+metrics:
+  plugins:
+    - name: jvmjolokia
+      enabled: true
+      interval: 300
+      config:
+        ip: 127.0.0.1
+        protocol: http
+        port: 8778
+        context: jolokia
+        monitorDeadlocks: false
+        deadLockMonitoringInterval: 300
