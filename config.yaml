@@ -7,7 +7,7 @@ metrics:
   plugins:
     - name: jvmjolokia
       enabled: true
-      interval: 300
+      interval: 60
       config:
         ip: 127.0.0.1
         protocol: http
